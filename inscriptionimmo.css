@@ -1,0 +1,542 @@
+
+
+/* .btn */
+/* { */
+	/* background-color:white; */
+	
+	/* width:10%; */
+	/* padding:0%; */
+	
+	
+/* } */
+#bout
+{
+	margin:0px;
+	margin:auto;
+	width:80%
+}
+#bt
+{
+	background:#853C10;
+	width:10%;
+}
+/* body */
+/* { */
+/* background-image:url("image/villa.jpg"); */
+	/* background-repeat:no-repeat; */
+	/* background-size:cover; */
+/* } */
+
+#menu{
+		
+        width: 100%;
+        margin: 0;
+		height:10%;
+		        padding: 50px 0 25px 0;
+
+        list-style: none;
+        background: #111;
+        background: -moz-linear-gradient(#444, #111);
+        background: -webkit-gradient(linear,left bottom,left top,color-stop(0, #111),color-stop(1, #444));
+        background: -webkit-linear-gradient(#444, #111);
+        background: -o-linear-gradient(#444, #111);
+        background: -ms-linear-gradient(#444, #111);
+        background: linear-gradient(#444, #111);
+        -moz-border-radius: 50px;
+		
+		
+        /* border-radius: 50px; */
+        /* -moz-box-shadow: 0 2px 1px #9c9c9c; */
+        /* -webkit-box-shadow: 0 2px 1px #9c9c9c; */
+        /* box-shadow: 0 2px 1px #9c9c9c; */
+				height:30%;
+
+		
+}
+
+#menu li{
+        float: left;
+        padding: 0 0 10px 0;
+        position: relative;
+}
+
+#menu a{
+        float: left;
+        height: 25px;
+        padding: 0 25px;
+        color: #999;
+        text-transform: uppercase;
+        font: bold 12px/25px Arial, Helvetica;
+        text-decoration: none;
+        text-shadow: 0 1px 0 #000;
+}
+
+#menu li:hover > a{
+        color: #fafafa;
+}
+
+*html #menu li a:hover{ /* IE6 */
+        color: #fafafa;
+}
+
+#menu li:hover > ul{
+        display: block;
+}
+
+/* Sous-menu */
+
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: 0;
+    z-index: 99999;
+    background: #444;
+    background: -moz-linear-gradient(#444, #111);
+    background: -webkit-gradient(linear,left bottom,left top,color-stop(0, #111),color-stop(1, #444));
+    background: -webkit-linear-gradient(#444, #111);
+    background: -o-linear-gradient(#444, #111);
+    background: -ms-linear-gradient(#444, #111);
+    background: linear-gradient(#444, #111);
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#menu ul li{
+    float: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    -moz-box-shadow: 0 1px 0 #111111, 0 2px 0 #777777;
+    -webkit-box-shadow: 0 1px 0 #111111, 0 2px 0 #777777;
+    box-shadow: 0 1px 0 #111111, 0 2px 0 #777777;
+}
+
+#menu ul li:last-child{
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#menu ul a{
+    padding: 10px;
+    /* height: auto; */
+    line-height: 1;
+    display: block;
+    white-space: nowrap;
+    float: none;
+    text-transform: none;
+}
+
+*html #menu ul a{ /* IE6 */
+        height: 10px;
+        width: 150px;
+				height:10%;
+
+}
+
+*:first-child+html #menu ul a{ /* IE7 */
+        height: 10px;
+        width: 150px;
+}
+
+#menu ul a:hover{
+        background: #0186ba;
+        background: -moz-linear-gradient(#04acec,  #0186ba);
+        background: -webkit-gradient(linear, left top, left bottom, from(#04acec), to(#0186ba));
+        background: -webkit-linear-gradient(#04acec,  #0186ba);
+        background: -o-linear-gradient(#04acec,  #0186ba);
+        background: -ms-linear-gradient(#04acec,  #0186ba);
+        background: linear-gradient(#04acec,  #0186ba);
+}
+
+#menu ul li:first-child a{
+    -moz-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+}
+
+#menu ul li:first-child a:after{
+    content: '';
+    position: absolute;
+    left: 30px;
+    top: -8px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 8px solid #444;
+			height:10%;
+
+}
+
+#menu ul li:first-child a:hover:after{
+    border-bottom-color: #04acec;
+}
+
+#menu ul li:last-child a{
+    -moz-border-radius: 0 0 5px 5px;
+    -webkit-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+}
+
+/* Rétablissement du flottement */
+#menu:after{
+        visibility: hidden;
+        display: block;
+        font-size: 0;
+        content: " ";
+        clear: both;
+        height: 0;
+		height:10%;
+}
+
+* html #menu             { zoom: 1; } /* IE6 */
+*:first-child+html #menu { zoom: 1; } /* IE7 */
+#ecart
+{
+	margin-left:85%;
+}
+tn
+{
+	background-color:white;
+	
+	width:10%;
+	padding:0%;
+	
+	
+}
+
+#diapo
+{
+	width:100%;
+	height:500px;
+		background-size:cover;
+
+	
+	webkit-animation-name:diapo1;
+	webkit-animation-duration:9s;
+	webkit-animation-timing-function:linear;
+	webkit-animation-iteration-count:infinite;
+	webkit-animation-direction:normal;
+	
+	moz-animation-name:diapo1;
+	moz-animation-duration:9s;
+	moz-animation-timing-function:linear;
+	moz-animation-iteration-count:infinite;
+	moz-animation-direction:normal;
+	
+	animation-name:diapo1;
+	animation-duration:9s;
+	animation-timing-function:linear;
+	animation-iteration-count:infinite;
+	animation-direction:normal;
+	
+}
+@-webkit-keyframes diapo1
+{
+	0%{background-image:url("image/villa.jpg");}
+	33%{background-image:url("image/chambre2.jpg");}
+	66%{background-image:url("image/imagesmbouré.jpg");}
+
+}
+@-moz-keyframes diapo1
+{	0%{background-image:url("image/villa.jpg");}
+
+	33%{background-image:url("image/chambre2.jpg");}
+	66%{background-image:url("image/imagesmbouré.jpg");}
+
+		
+}
+@keyframes diapo1
+{
+	0%{background-image:url("image/villa.jpg");}
+	33%{background-image:url("image/chambre2.jpg");}
+	66%{background-image:url("image/imagesmbouré.jpg");}
+
+		
+	
+}
+footer
+{
+	margin:1px;
+	height:40%;
+	background:black;
+	padding:3%;
+	height:100px;
+}
+
+.btt
+ { 
+ display:inline block;  
+	 
+	border-radius:30%; 
+	  box-shadow:0 5px 15px -5px #00000070;  
+	background:#f1f1f1; 
+	margin:5px; 
+	height:10%;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ header 
+ { 
+	 height:100px;
+ 
+	 background-color:black; 
+} 
+
+/* input */
+/* { */
+	/* border-radius:15px; */
+/* } */
+ label 
+ { 
+	 text-transform:uppercase; 
+	 font-style:italic; 
+     font-weight:bold; 
+ } 
+#h1 
+ { 
+	 text-transform:uppercase; 
+	 /* text-decoration:underline;  */
+	font-style:italic; 
+	 text-align:center;
+	background-color:silver;
+	height:70px;
+	padding:4px;
+ }
+.nam
+{
+	color:#abc;
+}
+ fieldset 
+ { 
+	/* display:inline; */
+	/* margin-bottom:30px; */
+	/* margin-top:40px; */
+	
+ } 
+/* #auth */
+/* { */
+	/* vertical-align:top; */
+	/* margin-left:50px; */
+	/* margin-right:50px; */
+/* } */
+/* #uti */
+/* { */
+
+	/* margin:auto; */
+	/* margin-bottom:100px; */
+	/* margin-top:80px; */
+	/* margin-left:300px; */
+/* } */
+
+fieldset 
+{ 
+	/* display:inline; */
+	margin-bottom:30px; 
+	 margin-top:40px; 
+} 
+/* #corps */
+/* { */
+	/* height:3000px; */
+	
+/* } */
+/* #contenu */
+/* { */
+	/* height:2000px; */
+	/* border:2px black solid; */
+/* } */
+
+#form1
+{
+	width:500px;
+	height:500px;
+	/* background-color:#abc; */
+	margin-bottom:30px; 
+	 margin-top:40px; 
+}
+#form2
+{
+	width:500px;
+	height:1000px;
+	margin-bottom:30px;
+	 margin-top:40px; 
+}
+#form3
+{
+	width:700px;
+	height:4000px;
+	margin-bottom:30px;
+	 margin-top:40px; 
+	 margin-left:300px;
+}
+#form4
+{
+	width:700px;
+	height:2000px;
+	margin-bottom:30px;
+	 margin-top:40px; 
+	 margin-left:100px;
+}
+	
+#uti
+{
+	width:500px;
+	height:1000px;
+	margin-bottom:30px;
+	margin-top:40px;
+	margin-left:300px;
+}
+#util
+{
+	width:500px;
+	height:500px;
+	margin-bottom:30px;
+	margin-top:40px;
+	margin-left:300px;
+}
+	
+#ut{
+		width:500px;
+	height:500px;
+	margin-bottom:30px;
+	margin-top:40px;
+	margin-left:300px;
+}
+#rech
+{
+	width:500px;
+	margin-bottom:30px;
+	margin-top:40px;
+	margin-left:300px;
+}
+#reche
+{
+	width:500px;
+	margin-bottom:30px;
+	margin-top:40px;
+	margin-left:300px;
+}
+h3 
+ { 
+	text-transform:uppercase; 
+	 font-weight:bold;
+	font-style:italic; 
+	 
+ }
+.i3
+{
+	width:40px;
+	height:20px;
+	background-color:green;
+	
+}
+
+/* table  */
+/* {  */
+	/* width:20px; */
+/* }   */
+#repro 
+{ 
+	 width:1000px; 
+	 /* height:900px;  */
+	 margin-top:40px; 
+	 /* margin:auto;  */
+ } 
+ tr
+ {
+	margin:auto;
+ }	
+
+#ch
+{
+	width:500px;
+	height:50px;
+	border-radius:70px; 
+	border:3px solid silver;
+	margin-top:60px;
+	margin-bottom:30px;
+	
+	/* margin-left:00px; */
+}
+#cher
+{
+	width:500px;
+	height:50px;
+	border-radius:70px; 
+	border:3px solid silver;
+	margin-top:60px;
+	margin-bottom:30px;
+}
+#c
+{
+	color:black;
+}
+
+#hea
+{
+	text-transform:uppercase;
+	font-family:Times New Roman ;
+	border-collapse:collapse;
+	font-weight:bold;
+	width:111px;
+	/* border:3px solid black; */
+
+}
+#in
+{
+	margin-top:-10px;
+	
+}
+
+td
+{
+	border:3px solid black;
+   width:112px;
+   text-align:center; 
+   height:50px;
+   text-transform:uppercase;
+   font-family:Georgia;
+   margin:auto;
+   
+}
+.info
+{
+	border:3px dotted black;
+   width:112px;
+   background-color:gray;
+    text-align:center; 
+	font-size:
+}
+
+

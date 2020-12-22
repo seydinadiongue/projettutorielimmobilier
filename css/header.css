@@ -1,0 +1,134 @@
+#body{
+	width: 96%;
+	margin: auto;
+	background-color: rgb(247, 243, 239);
+}
+#profile
+{
+	float: right;
+}
+#header
+{
+
+	margin-bottom: 25px;
+   width:99%;
+   height:300px ;
+   border:3px solid #333;
+   border-radius: 20px;
+   background-image: url("images/k.jpg");
+   
+   -webkit-animation-name: diapo1;
+   -webkit-animation-duration: 233s;
+   -webkit-animation-timing-function: linear;
+   -webkit-animation-iteration-count: infinite;
+   -webkit-animation-direction: normal;
+   
+   
+   -moz-animation-name: diapo1;
+   -moz-animation-duration: 992s;
+   -moz-animation-timing-function: linear;
+   -moz-animation-iteration-count: infinite;
+   -moz-animation-direction: normal;
+   
+   animation-name: diapo1;
+   animation-duration: 12s;
+   animation-timing-function: linear;
+   animation-iteration-count: infinite;
+   animation-direction: normal;
+}
+@-webkit-keyframes diapo1
+{
+0%{background-image: url("images/a2.jpg");}	
+33%{background-image: url("images/a1.jpg");}
+66%{background-image: url("images/a9.jpg");}
+}
+@-moz-keyframes diapo1
+{
+	0%{background-image: url("images/a2.jpg");}	
+	33%{background-image: url("images/a1.jpg");}
+	66%{background-image: url("images/a9.jpg");}
+}
+@keyframes diapo1
+{0%{background-image: url("images/a2.jpg");}	
+33%{background-image: url("images/a1.jpg");}
+66%{background-image: url("images/a9.jpg");}
+}
+nav
+{
+	width:100%;
+	background-color:#424558;
+	
+	display:table;
+	margin:0 auto;
+}
+ nav ul
+{
+	margin:0px;
+	padding:0px;
+}
+ nav li
+{
+	list-style-type:none;
+	float:left;
+}	
+
+nav a 
+{
+	display:inline-block;
+	text-decoration:none;
+	padding:20px 30px;
+	color:#FFF;
+	text-transform:uppercase;
+	font-size:15px;
+}
+ nav li:hover above
+{
+	padding:15px 30px 20px 30px;
+}
+#s
+{
+	width: 200px;
+	background-color: #282d33a1;
+	height: 100%;
+}
+.toggle
+{
+  width:100%;
+padding:10px 20px;
+background:#001f44;
+text-align:rigth;
+box-sizing:border-box; 
+color:#fff;
+font-size:30px;
+display:none;
+}
+@media (max-width:768px)
+{
+	.toggle
+	{
+	 display:none;	
+	}
+	 ul
+	{
+		width:100%;
+	}
+	ul li
+	{
+		display:block;
+		text-align:center;
+	}
+	.active
+	{
+		display:block;
+	}
+	
+}
+#deconnexion
+{
+	border:2px solid coral;
+	float: right;
+}
+#footer
+{
+	border-radius: 2px;
+}

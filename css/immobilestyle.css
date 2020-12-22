@@ -1,0 +1,113 @@
+body
+{
+	font-family:'Century Gothic',Calibri,serif;
+	font-size:13px;
+	margin:0px;
+	padding:0px;
+	
+}
+.f
+{
+	width:100px;
+	height:100px;
+}
+h1
+{
+	font-size:40px;
+	font-weight:normal;
+	text-align:center;
+}
+header
+{
+	width:100%;
+	height:80px;
+	border:1px solid blue;
+	
+}
+footer
+{
+    width:100%;
+	height:80px;
+    padding-top:30px;
+    text-align:center;
+    background-color:#C5C5C5;
+    border-top:2px solid #AAA;	
+}
+.menu
+{
+	display:table;
+	margin:0 auto;
+}
+.accueil:hover, .formclient
+{
+	border-top:5px solid #4C8;
+	background-color:RGBa(64, 200, 130, 0.15);
+}
+.appart:hover, .presentation
+{
+	border-top:5px solid #4C8;
+	background-color:RGBa(64, 200, 130, 0.15);
+}
+.agent:hover, .parcours
+{
+	border-top:5px solid #f1dc4f;
+	background-color:RGBa(241, 211, 79, 0.15);
+}
+.location:hover, .parcours
+{
+	border-top:5px solid #f1dc4f;
+	background-color:RGBa(241, 211, 79, 0.15);
+}
+.client:hover, .competences
+{
+	border-top:5px solid #0070BB;
+	background-color:RGBa(000, 112, 192, 0.15);
+}
+.reserv:hover, .competences
+{
+	border-top:5px solid #0070BB;
+	background-color:RGBa(000, 112, 192, 0.15);
+}
+.contac:hover, .recommandation
+{
+	border-top:5px solid #e44d26;
+	background-color:RGBa(228, 77, 38, 0.15);
+}
+nav li:hover above
+{
+	padding:15px 30px 20px 30px;
+}
+section
+{
+	width:100%;
+	min-height:300px;
+	padding-bottom:10px;
+	margin-bottom:10px;
+}
+.sec
+{
+	margin:0px 10px;
+}
+.po 
+{
+  height:40px;
+  margin-left:20px;
+  
+}
+#p
+{
+  font-size:12px
+}
+#info
+{
+  border:1px solid blue;
+}
+#as{r:1px solid blue;
+}
+  borde
+#photo
+{
+  border:1px solid blue;
+}
+
+	
